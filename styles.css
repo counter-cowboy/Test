@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#uploadForm {
+    margin-bottom: 20px;
+}
+
+#uploadForm input, #uploadForm button {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#imageGallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.image-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.image-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
